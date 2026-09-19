@@ -1,0 +1,9 @@
+DELETE FROM employee2
+WHERE employee_id=105;
+
+ALTER TABLE employee2
+DROP COLUMN salary;
+
+DROP TABLE IF EXISTS employee2;
+
+DROP DATABASE IF EXISTS company2;
