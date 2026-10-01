@@ -1,0 +1,7 @@
+SELECT 3.156 AS nos,
+ROUND(3.156,2) AS round_2,
+ROUND(3.156,1) AS round_1,
+ROUND(3.156,0) AS round_0
+
+SELECT -10,
+ABS(-10),ABS(10);
